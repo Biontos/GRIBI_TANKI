@@ -1,0 +1,6 @@
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MauiAppTanks.AppShell">
+    <TabBar>
+        <ShellContent Route="MainPage" ContentTemplate="{DataTemplate local:MainPage}" Title="Танки" />
+        <ShellContent Route="AddTankPage" ContentTemplate="{DataTemplate local:AddTankPage}" Title="Добавить танк" />
+    </TabBar>
+</Shell>
